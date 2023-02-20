@@ -41,12 +41,12 @@ setup(
         'srv6_sdn_control_plane.southbound.ssh'
     ],  # Required
     install_requires=[
-        'setuptools',
-        'grpcio>=1.19.0',
-        'grpcio-tools>=1.19.0',
+        'setuptools>=41.2.0',
+        'grpcio==1.36.0',
+        'grpcio-tools==1.36.0',
         'ipaddress>=1.0.22',
         'networkx==1.11',
-        'protobuf>=3.7.1',
+        'protobuf==3.19.1',
         'pygraphviz>=1.5',
         'six>=1.12.0',
         'sshutil>=1.5.0',
