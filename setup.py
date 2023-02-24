@@ -42,13 +42,13 @@ setup(
     ],  # Required
     install_requires=[
         'setuptools>=41.2.0',
-        'grpcio==1.36.0',
-        'grpcio-tools==1.36.0',
+        'grpcio==1.41.0',
+        'grpcio-tools==1.41.0',
         'ipaddress>=1.0.22',
         'networkx==1.11',
         'protobuf==3.19.1',
         'pygraphviz>=1.5',
-        'six>=1.12.0',
+        'six==1.16.0',
         'sshutil>=1.5.0',
         'filelock>=3.0.12',
         'cffi>=1.14.1',
